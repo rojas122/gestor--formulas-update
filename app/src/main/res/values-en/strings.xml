@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APPS GESTOR FORMULAS</string>
+    <string name="arithmetic">Aritmetic</string>
+    <string name="backBtn">Back</string>
+    <string name="calculus">Calculus</string>
+    <string name="complexNumbers">Complex numbers</string>
+    <string name="desc3Variables">Linear systems of three equations with three unknowns. These systems can be interpreted as a set of three planes in real three-dimensional space. To solve this type of system, a reduction will be applied, so that each equation has a lesser unknown than the previous one.</string>
+    <string name="descArithmetic">" Arithmetic is the branch of mathematics whose object of study are numbers and elementary operations made with them: addition, subtraction, multiplication and division."</string>
+    <string name="descNComplex">The sum of two complex numbers is another complex that has by real component the sum of the real components and by imaginary component the sum of the imaginary components of the addends. Since the addition is the law of internal composition in the R set of real numbers, a + c and b + d are real numbers.</string>
+    <string name="descPMatrices">In mathematics, the multiplication or product of matrices is the operation of composition carried out between two matrices, or the multiplication between a matrix and a scalar according to certain rules.</string>
+    <string name="descCalculus">Calculus description</string>
+    <string name="descPhysics">Physiscs descrption</string>
+    <string name="descSEL">In mathematics and linear algebra, a system of linear equations, also known as a linear system of equations or simply a linear system, is a set of linear equations (that is, a system of equations in which each equation is first degree), defined on a body or a commutative ring. An example of a linear system of equations would be the following:</string>
+    <string name="descSMatrix">To be able to add two or more matrices they must have the same size, the same number of columns and rows. Properties: Closed: The sum of two matrices results in another matrix of equal size. Neutral: There is a matrix O, with all its elements of zero value such that A + O = O + A = A.</string>
+    <string name="equation">Equation</string>
+    <string name="equationSystem">Sum of equations</string>
+    <string name="equations">EQUATIONS</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="img">image</string>
+    <string name="linearAlgebra">Linear algebra</string>
+    <string name="linearEq">Linear equations</string>
+    <string name="matrix">Matrix</string>
+    <string name="option">Option</string>
+    <string name="physics">Physic</string>
+    <string name="product">Product</string>
+    <string name="saveEq">Save</string>
+    <string name="scan">Scan</string>
+    <string name="scanQR">Scan QR</string>
+    <string name="scanner">Scanner</string>
+    <string name="subcategory">Subcategory</string>
+    <string name="sumOf">Sum of</string>
+    <string name="systemOf">System of</string>
+    <string name="titleAppFormulas">App Fomulas</string>
+    <string name="treeVariables">Tree variables</string>
+</resources>

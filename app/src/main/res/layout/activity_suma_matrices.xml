@@ -14,21 +14,21 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="4dp"
-        android:text="Suma de"
+        android:text="@string/sumOf"
         android:textColor="#213546"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/title_text"
+        android:id="@+id/text_ecuac_x3"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
-        android:text="Matrices"
+        android:text="@string/matrix"
         android:textColor="#213546"
         android:textSize="23.8sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
@@ -47,7 +47,7 @@
         android:layout_marginBottom="16dp"
         android:background="#1A1127"
         android:onClick="volver_sum_matrices"
-        android:text="volver"
+        android:text="@string/backBtn"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,9 +60,9 @@
         android:layout_width="99dp"
         android:layout_height="69dp"
         android:background="#213546"
-        android:contentDescription="todo"
+        android:contentDescription="@string/img"
         android:src="@drawable/ic_domain_black_24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/title_text"
+        app:layout_constraintBottom_toBottomOf="@+id/text_ecuac_x3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -76,7 +76,7 @@
         android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         android:lineSpacingExtra="5sp"
-        android:text=" Para poder sumar dos o más matrices deben tener el mismo tamaño, la misma cantidad de columnas y de filas. Propiedades: Cerrada: La suma de dos matrices resulta otra matriz de igual tamaño. ... Neutro: Existe una matriz O, con todos sus elementos de valor cero tal que A + O = O + A = A. "
+        android:text="@string/descSMatrix"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="#1F1E1E"
@@ -86,7 +86,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintTop_toBottomOf="@+id/text_ecuac_x3"
         app:layout_constraintVertical_bias="0.021" />
 
 

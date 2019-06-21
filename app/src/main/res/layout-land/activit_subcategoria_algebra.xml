@@ -16,7 +16,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
         android:layout_marginTop="8dp"
-        android:text="Subcategoria :"
+        android:text="@string/subcategory"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Alebra Lineal"
+        android:text="@string/linearAlgebra"
         android:textColor="#FFFFFF"
         android:textSize="29sp"
         app:layout_constraintEnd_toStartOf="@+id/list_tipo_ecuaciones"
@@ -50,7 +50,7 @@
         android:layout_marginBottom="16dp"
         android:background="#1A1127"
         android:onClick="clic_algebra"
-        android:text="volver"
+        android:text="@string/backBtn"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -89,11 +89,13 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:src="@drawable/ic_cloud_done_black_24dp"
+        android:contentDescription="@string/img"
         app:layout_constraintEnd_toStartOf="@+id/list_tipo_ecuaciones"
         app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_cloud_done_black_24dp" />
+         />
 
 
 </android.support.constraint.ConstraintLayout>

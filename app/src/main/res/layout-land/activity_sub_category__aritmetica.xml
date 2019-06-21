@@ -13,7 +13,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
-        android:text="Subcategoria :"
+        android:text="@string/subcategory"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         android:layout_marginLeft="28dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:text="Aritmetica"
+        android:text="@string/arithmetic"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
         android:layout_marginBottom="16dp"
         android:background="#1A1127"
         android:onClick="clic_aritmetica"
-        android:text="Atras"
+        android:text="@string/backBtn"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,11 +86,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:src="@drawable/ic_cloud_done_black_24dp"
+        android:contentDescription="@string/img"
         app:layout_constraintEnd_toStartOf="@+id/list_tipo_ecua_aritmetica"
         app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_cloud_done_black_24dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

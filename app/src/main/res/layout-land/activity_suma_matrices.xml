@@ -14,14 +14,14 @@
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:background="#FDFDFE"
-        android:text="Suma de"
+        android:text="@string/sumOf"
         android:textColor="#213546"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title_text" />
+        app:layout_constraintTop_toTopOf="@+id/text_ecuac_x3" />
 
     <TextView
-        android:id="@+id/title_text"
+        android:id="@+id/text_ecuac_x3"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
@@ -29,7 +29,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
-        android:text="Matrices"
+        android:text="@string/matrix"
         android:textColor="#213546"
         android:textSize="23.8sp"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
@@ -49,7 +49,7 @@
         android:layout_marginBottom="16dp"
         android:background="#1A1127"
         android:onClick="volver_sum_matrices"
-        android:text="volver"
+        android:text="@string/backBtn"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,9 +64,9 @@
         android:layout_width="99dp"
         android:layout_height="69dp"
         android:background="#213546"
-        android:contentDescription="todo"
+        android:contentDescription="@string/img"
         android:src="@drawable/ic_domain_black_24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/title_text"
+        app:layout_constraintBottom_toBottomOf="@+id/text_ecuac_x3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -84,7 +84,7 @@
         android:background="#FFFFFF"
         android:lineSpacingExtra="5sp"
         android:scrollbars="vertical"
-        android:text=" Para poder sumar dos o más matrices deben tener el mismo tamaño, la misma cantidad de columnas y de filas. Propiedades: Cerrada: La suma de dos matrices resulta otra matriz de igual tamaño. ... Neutro: Existe una matriz O, con todos sus elementos de valor cero tal que A + O = O + A = A. "
+        android:text="@string/descSMatrix"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="#1F1E1E"
@@ -94,24 +94,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_text" />
+        app:layout_constraintTop_toBottomOf="@+id/text_ecuac_x3" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="180dp"
         android:layout_height="127dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="120dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="212dp"
+        android:contentDescription="@string/img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toEndOf="@+id/text_suma_matrices"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.116"
         app:srcCompat="@android:drawable/checkbox_on_background" />
 
 </android.support.constraint.ConstraintLayout>

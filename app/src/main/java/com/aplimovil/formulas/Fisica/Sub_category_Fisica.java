@@ -16,7 +16,7 @@ import com.aplimovil.formulas.aritmetica.Sub_category_Aritmetica;
 
 public class Sub_category_Fisica extends AppCompatActivity implements ListView.OnItemClickListener {
 ListView list_ecua_fisica;
-    String[] valor_fisica =new String[]{"Electromagnetismo","Electrostatica","Campo Electrico","Capasitancia"};
+    String[] valor_fisica =new String[]{"Ecuacion Electromagnetismo","Ecuacion Electrostatica","Ecuacion Campo Electrico","Ecuacion Capasitancia"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,11 +32,11 @@ ListView list_ecua_fisica;
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String item1 ="Electromagnetismo";
-        String item2 = "Electrostatica";
-        String item3 = "Campo Electrico";
-        String item4 = "Magnetismo";
-        String item5 = "Capasitancia";
+        String item1 = "Ecuacion Electromagnetismo";
+        String item2 = "Ecuacion Electrostatica";
+        String item3 = "Ecuacion Campo Electrico";
+        String item4 = "Ecuacion Capasitancia";
+
 
         String items = (String) adapterView.getItemAtPosition(i);
         if (items == item1) {

@@ -16,7 +16,7 @@ import com.aplimovil.formulas.aritmetica.Sub_category_Aritmetica;
 
 public class Sub_category_calculo extends AppCompatActivity implements ListView.OnItemClickListener{
     ListView lista_ecua_calculo;
-    String[] valor_calculo =new String[]{"Ecuacion1","Ecuacion2","Ecuacion3", "Ecuacion4"};
+    String[] valor_calculo =new String[]{"Ecuacion 1 de calculo","Ecuacion 2 de calculo","Ecuacion 3 de calculo", "Ecuacion 4 de calculo"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,10 +30,10 @@ public class Sub_category_calculo extends AppCompatActivity implements ListView.
     }
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        String item1 ="Ecuacion1";
-        String item2 = "Ecuacion2";
-        String item3 = "Ecuacion3";
-        String item4 = "Ecuacion4";
+        String item1 = "Ecuacion 1 de calculo";
+        String item2 = "Ecuacion 2 de calculo";
+        String item3 = "Ecuacion 3 de calculo";
+        String item4 = "Ecuacion 4 de calculo";
 
 
         String items = (String) adapterView.getItemAtPosition(i);

@@ -33,4 +33,6 @@
     <string name="systemOf">System of</string>
     <string name="titleAppFormulas">App Fomulas</string>
     <string name="treeVariables">Tree variables</string>
+    <string name="categories">Category</string>
+    <string name="begin">Begin</string>
 </resources>

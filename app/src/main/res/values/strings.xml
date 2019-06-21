@@ -19,7 +19,11 @@
     <string name="scan">Escanear</string>
     <string name="saveEq">Guardar</string>
 
-    <!-- Subcategoria Algebra -->
+    <!-- Categoria -->
+    <string name="categories">Categorias</string>
+    <string name="begin">Inicio</string>
+
+    <!--  Algebra -->
     <string name="linearAlgebra">Algebra Lineal</string>
 
     <!-- Aritmetica -->

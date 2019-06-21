@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".escanner"></activity>
+        <activity android:name=".FAVORITOS"></activity>
+        <activity android:name=".escanner"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Fisica.fisica_ecua_4" />
         <activity android:name=".Fisica.fisica_ecua_3" />
         <activity android:name=".Fisica.fisica_ecua_2" />

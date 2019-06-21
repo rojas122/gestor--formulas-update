@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.aplimovil.formulas.FAVORITOS;
 import com.aplimovil.formulas.R;
 import com.aplimovil.formulas.escanner;
 
@@ -33,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_codg_qr:
                 intent=new Intent(MainActivity.this, escanner.class);
+                break;
+            case R.id.favoritas:
+                intent=new Intent(MainActivity.this, FAVORITOS.class);
+                break;
+            case R.id.btn_favoritas2:
+                intent=new Intent(MainActivity.this, FAVORITOS.class);
                 break;
 
         }

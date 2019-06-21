@@ -9,11 +9,11 @@
     tools:context=".Main_y_category.MainActivity">
 
     <Button
-        android:id="@+id/btn_favoritas"
+        android:id="@+id/btn_favoritas2"
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginTop="32dp"
-        android:onClick="onclick"
+        android:onClick="onClick"
         android:text="FAVORITAS"
         app:layout_constraintEnd_toEndOf="@+id/btn_ecua"
         app:layout_constraintHorizontal_bias="0.0"
@@ -37,7 +37,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_codg_qr"
-        app:layout_constraintTop_toBottomOf="@+id/btn_favoritas"
+        app:layout_constraintTop_toBottomOf="@+id/btn_favoritas2"
         app:layout_constraintVertical_bias="0.558" />
 
 
@@ -62,7 +62,7 @@
         android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_codg_qr"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_favoritas"
+        app:layout_constraintTop_toTopOf="@+id/btn_favoritas2"
         app:srcCompat="@drawable/add_qr" />
 
     <TextView

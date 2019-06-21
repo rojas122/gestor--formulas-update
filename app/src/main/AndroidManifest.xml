@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplimovil.formulas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fisica.fisica_ecua_4"></activity>
+        <activity android:name=".Fisica.fisica_ecua_3" />
+        <activity android:name=".Fisica.fisica_ecua_2" />
+        <activity android:name=".Fisica.fisica_ecua_1" />
+        <activity android:name=".Calculo.calculo_equation_4" />
+        <activity android:name=".Calculo.calculo_equation_3" />
+        <activity android:name=".Calculo.calculo_equation_2" />
+        <activity android:name=".Calculo.calculo_equation_1" />
+        <activity android:name=".aritmetica.aritmetica__equation_3" />
+        <activity android:name=".aritmetica.aritmetica_eqaution_2" />
+        <activity android:name=".aritmetica.aritmetica_equation_1" />
+        <activity android:name=".algebra.sistem_ecuac_por_tres" />
+        <activity android:name=".algebra.producto_matrices" />
+        <activity android:name=".algebra.suma_complejos" />
+        <activity android:name=".algebra.suma_matrices" />
+        <activity android:name=".Fisica.Sub_category_Fisica" />
+        <activity android:name=".aritmetica.Sub_category_Aritmetica" />
+        <activity android:name=".Calculo.Sub_category_calculo" />
+        <activity android:name=".algebra.subcategoria_algebra_lineal" />
+        <activity android:name=".algebra.view_algebra" />
+        <activity android:name=".Main_y_category.category" />
+        <activity android:name=".Main_y_category.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

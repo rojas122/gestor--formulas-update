@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arraySub_algebra">
+        <item>Sistema de Ecuaciones Lineales </item>
+        <item>Suma de Matrices </item>
+        <item>Suma de Complejos </item>
+        <item>Producto de Matrices</item>
+        <item>Sistema de Ecuaciones Lineales </item>
+
+
+    </string-array>
+    <string-array name="arraySub_calculo">
+        <item>Sistema de Ecuaciones Lineales </item>
+        <item>Suma de Matrices </item>
+        <item>Suma de Comlejos </item>
+        <item>Producto de Matrices</item>
+        <item>Suma de Complejos </item>
+        <item>Producto de Matrices</item>
+
+    </string-array>
+    <string-array name="arraySub_aritmetica">
+        <item>Sistema de Ecuaciones Lineales </item>
+        <item>Suma de Matrices </item>
+        <item>Suma de Comlejos </item>
+        <item>Producto de Matrices</item>
+        <item>Suma de Complejos </item>
+        <item>Producto de Matrices</item>
+
+    </string-array>
+    <string-array name="arraySub_fisica">
+        <item>Sistema de Ecuaciones Lineales </item>
+        <item>Suma de Matrices </item>
+        <item>Suma de Comlejos </item>
+        <item>Producto de Matrices</item>
+        <item>Suma de Complejos </item>
+        <item>Producto de Matrices</item>
+
+    </string-array>
+
+</resources>

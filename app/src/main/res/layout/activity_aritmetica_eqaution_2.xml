@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aritmetica.aritmetica_eqaution_2"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/ecua_sistema_lineales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Ecuacion"
+        android:textColor="#213546"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Aritmetica"
+        android:textColor="#213546"
+        android:textSize="23.8sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ecua_sistema_lineales" />
+
+    <Button
+        android:id="@+id/btn_volver-sub"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#1A1127"
+        android:onClick="aritmetica_2"
+        android:text="volver"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="99dp"
+        android:layout_height="69dp"
+        android:background="#213546"
+        android:contentDescription="todo"
+        android:src="@drawable/ic_domain_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/title_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_aritmetica"
+        android:scrollbars="vertical"
+        android:layout_width="340dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFFFFF"
+        android:lineSpacingExtra="5sp"
+        android:text=" La aritmética es la rama de la matemática cuyo objeto de estudio son los números y las operaciones elementales hechas con ellos: adición, sustracción, multiplicación y división."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#1F1E1E"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_volver-sub"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="154dp"
+        android:layout_height="125dp"
+        android:src="@drawable/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="@+id/text_aritmetica"
+        app:layout_constraintEnd_toEndOf="@+id/text_aritmetica"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/text_aritmetica"
+        app:layout_constraintTop_toTopOf="@+id/text_aritmetica"
+        app:layout_constraintVertical_bias="0.788" />
+</android.support.constraint.ConstraintLayout>

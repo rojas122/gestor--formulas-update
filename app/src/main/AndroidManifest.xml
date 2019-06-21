@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aplimovil.formulas">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
@@ -9,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fisica.fisica_ecua_4"></activity>
+        <activity android:name=".escanner"></activity>
+        <activity android:name=".Fisica.fisica_ecua_4" />
         <activity android:name=".Fisica.fisica_ecua_3" />
         <activity android:name=".Fisica.fisica_ecua_2" />
         <activity android:name=".Fisica.fisica_ecua_1" />

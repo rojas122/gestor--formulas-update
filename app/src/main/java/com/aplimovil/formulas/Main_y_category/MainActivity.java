@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.aplimovil.formulas.R;
+import com.aplimovil.formulas.escanner;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_ecua, btn_salir;
@@ -30,14 +31,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_ecua:
                 intent=new Intent(MainActivity.this, category.class);
                 break;
-            //case R.id.btn_salir:
-                //finish();
-                //finish();
-                // System.exit(0);
-              //  intent=new Intent(Intent.ACTION_MAIN);
-                //intent.addCategory(Intent.CATEGORY_HOME); //CERRAR APP
-                //intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                //break;
+            case R.id.btn_codg_qr:
+                intent=new Intent(MainActivity.this, escanner.class);
+                break;
 
         }
         startActivity(intent);

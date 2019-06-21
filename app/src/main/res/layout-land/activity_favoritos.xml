@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="28dp"
         android:layout_marginTop="4dp"
-        android:text="Subcategoria :"
+        android:text="@string/subcategory"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView"
@@ -23,17 +23,19 @@
         android:id="@+id/title_algebra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="favoritos"
+        android:text="@string/favorites"
         android:textColor="#FFFFFF"
         android:textSize="29sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_volver"
         app:layout_constraintEnd_toEndOf="@+id/btn_category3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/btn_category3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_category3"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_volver"
@@ -47,7 +49,7 @@
         android:layout_marginBottom="8dp"
         android:background="#1A1127"
         android:onClick="clic_favoritas"
-        android:text="volver"
+        android:text="@string/backBtn"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,9 +86,11 @@
         android:layout_height="110dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
+        android:src="@drawable/ic_cloud_done_black_24dp"
+        android:contentDescription="@string/img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_cloud_done_black_24dp" />
+         />
 
 
 </android.support.constraint.ConstraintLayout>

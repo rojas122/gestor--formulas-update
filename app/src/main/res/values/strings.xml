@@ -1,6 +1,66 @@
 <resources>
     <string name="app_name">APPS GESTOR FORMULAS</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- General -->
+    <string name="img">Imagen</string>
+    <string name="backBtn">Volver</string>
+    <string name="equation">Ecuación</string>
+    <string name="subcategory">Subcategoria</string>
+
+    <!-- Main -->
+    <string name="titleAppFormulas">App Formulas</string>
+    <string name="equations">ECUACIONES</string>
+    <string name="favorites">FAVORITAS</string>
+    <string name="scanQR">ESCANEAR QR</string>
+
+    <!-- Scanner -->
+    <string name="option">Opción</string>
+    <string name="scanner">Escaner</string>
+    <string name="scan">Escanear</string>
+    <string name="saveEq">Guardar</string>
+
+    <!-- Categoria -->
+    <string name="categories">Categorias</string>
+    <string name="begin">Inicio</string>
+
+    <!--  Algebra -->
+    <string name="linearAlgebra">Algebra Lineal</string>
+
+    <!-- Aritmetica -->
+    <string name="arithmetic">Aritmética</string>
+    <string name="descArithmetic">La aritmética es la rama de la matemática cuyo objeto de estudio son los números y las operaciones elementales hechas con ellos: adición, sustracción, multiplicación y división.</string>
+
+    <!-- Cálculo -->
+    <string name="calculus">Cálculo</string>
+    <string name="descCalculus">Descripción de Cálculo</string>
+
+    <!-- Física -->
+    <string name="physics">Física</string>
+    <string name="descPhysics">Descripción de Física</string>
+
+
+
+    <!-- Producto matrices -->
+    <string name="product">Producto</string>
+    <string name="matrix">Matrices</string>
+    <string name="descPMatrices">En matemática, la multiplicación o producto de matrices es la operación de composición efectuada entre dos matrices, o bien la multiplicación entre una matriz y un escalar según unas determinadas reglas.</string>
+
+    <!-- Sistemas de ecuaciones 3 variables -->
+    <string name="equationSystem">Sistema de ecuaciones</string>
+    <string name="treeVariables">Tres variables</string>
+    <string name="desc3Variables">Sistemas lineales de tres ecuaciones con tres incógnitas. Se pueden interpretar estos sistemas como un conjunto de tres planos en el espacio real tridimensional . ... Para resolver este tipo de sistemas se aplicará reducción, de forma que cada ecuación tenga una incógnita menos que la anterior.</string>
+
+    <!-- Suma de números complejos -->
+    <string name="sumOf">Suma de</string>
+    <string name="complexNumbers">Números complejos</string>
+    <string name="descNComplex">La suma de dos números complejos es otro complejo que tiene por componente real la suma de las componentes reales y por componente imaginaria la suma de las componentes imaginarias de los sumandos. Como la adición es ley de composición interna en elconjunto R de los números reales, a+c y b+d son números reales.</string>
+
+    <!-- Suma de números complejos -->
+    <string name="descSMatrix">Para poder sumar dos o más matrices deben tener el mismo tamaño, la misma cantidad de columnas y de filas. Propiedades: Cerrada: La suma de dos matrices resulta otra matriz de igual tamaño. ... Neutro: Existe una matriz O, con todos sus elementos de valor cero tal que A + O = O + A = A.</string>
+
+    <!-- Sisttema de ecuaciones lineales -->
+    <string name="systemOf">Sistema de</string>
+    <string name="linearEq">Ecuaciones lineales</string>
+    <string name="descSEL">En matemáticas y álgebra lineal, un sistema de ecuaciones lineales, también conocido como sistema lineal de ecuaciones o simplemente sistema lineal, es un conjunto de ecuaciones lineales (es decir, un sistema de ecuaciones en donde cada ecuación es de primer grado), definidas sobre un cuerpo o un anillo conmutativo. Un ejemplo de sistema lineal de ecuaciones sería el siguiente:</string>
+
 </resources>

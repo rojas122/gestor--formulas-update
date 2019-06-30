@@ -30,7 +30,7 @@
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginTop="16dp"
-        android:onClick="onclick"
+        android:onClick="onClick"
         android:text="@string/favorites"
         app:layout_constraintEnd_toEndOf="@+id/btn_ecua"
         app:layout_constraintStart_toStartOf="@+id/btn_ecua"
@@ -67,33 +67,21 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_favoritas" />
 
     <ImageButton
-        android:id="@+id/agaregar_ecua"
-        android:layout_width="115dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:contentDescription="@string/img"
-        app:layout_constraintEnd_toEndOf="@+id/buscador"
-        app:layout_constraintTop_toBottomOf="@+id/btn_navegador"
-        app:srcCompat="@drawable/add_new_item"
-        android:onClick="onClick"/>
-
-    <ImageButton
         android:id="@+id/btn_QR"
         android:layout_width="134dp"
         android:layout_height="121dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/img"
-        app:layout_constraintBottom_toBottomOf="@+id/agaregar_ecua"
-        app:layout_constraintEnd_toStartOf="@+id/agaregar_ecua"
-        app:layout_constraintHorizontal_bias="0.345"
-        app:layout_constraintStart_toStartOf="@+id/btn_navegador"
-        app:layout_constraintTop_toTopOf="@+id/agaregar_ecua"
-        app:layout_constraintVertical_bias="1.0"
         android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buscador"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="@+id/btn_navegador"
+        app:layout_constraintTop_toBottomOf="@+id/btn_navegador"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/add_qr" />
 
     <TextView

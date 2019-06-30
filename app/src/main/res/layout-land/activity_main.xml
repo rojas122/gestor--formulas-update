@@ -8,22 +8,23 @@
     android:descendantFocusability="afterDescendants"
     tools:context=".Main_y_category.MainActivity">
 
-    <ImageButton
-        android:id="@+id/agaregar_ecua"
-        android:onClick="onClick"
-        android:layout_width="109dp"
-        android:layout_height="97dp"
-        android:contentDescription="@string/img"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_QR"
-        app:layout_constraintEnd_toEndOf="@+id/btn_codg_qr"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btn_QR"
-        app:layout_constraintTop_toTopOf="@+id/btn_QR"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/add_new_item" />
+    <ImageView
+        android:id="@+id/buscador2"
+        android:layout_width="47dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_navegador"
+        app:layout_constraintEnd_toEndOf="@+id/btn_QR"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toEndOf="@+id/btn_navegador"
+        app:layout_constraintTop_toTopOf="@+id/btn_navegador"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/aa" />
 
     <Button
-        android:id="@+id/btn_favoritas2"
+        android:id="@+id/btn_favoritas"
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginTop="32dp"
@@ -50,17 +51,18 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_codg_qr"
-        app:layout_constraintTop_toBottomOf="@+id/btn_favoritas2"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toEndOf="@+id/btn_QR"
+        app:layout_constraintTop_toBottomOf="@+id/btn_favoritas"
+        app:layout_constraintVertical_bias="0.529" />
 
 
     <Button
         android:id="@+id/btn_navegador"
         android:layout_width="223dp"
         android:layout_height="52dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:onClick="onClick"
         android:text="BUSQUEDA GOOGLE"
         app:layout_constraintBottom_toBottomOf="@+id/btn_ecua"
@@ -70,14 +72,14 @@
         android:id="@+id/btn_QR"
         android:layout_width="109dp"
         android:layout_height="97dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="24dp"
         android:onClick="onClick"
         app:layout_constraintBottom_toTopOf="@+id/btn_navegador"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_favoritas2"
+        app:layout_constraintTop_toTopOf="@+id/btn_favoritas"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/add_qr" />
 

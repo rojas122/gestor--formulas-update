@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             /*case R.id.favoritas:
                 intent=new Intent(MainActivity.this, FAVORITOS.class);
                 break;}*/
-            case R.id.agaregar_ecua:
+            case R.id.btn_favoritas:
                 intent=new Intent(MainActivity.this, FAVORITOS.class);
                 break;
 

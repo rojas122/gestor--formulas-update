@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_ecua:
                 intent=new Intent(MainActivity.this, category.class);
                 break;
-            case R.id.btn_codg_qr:
+            case R.id.btn_QR:
                 intent=new Intent(MainActivity.this, escanner.class);
                 break;
             /*case R.id.favoritas:
                 intent=new Intent(MainActivity.this, FAVORITOS.class);
                 break;}*/
-            case R.id.btn_favoritas2:
+            case R.id.agaregar_ecua:
                 intent=new Intent(MainActivity.this, FAVORITOS.class);
                 break;
 

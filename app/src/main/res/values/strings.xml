@@ -11,7 +11,7 @@
     <string name="titleAppFormulas">App Formulas</string>
     <string name="equations">ECUACIONES</string>
     <string name="favorites">FAVORITAS</string>
-    <string name="scanQR">ESCANEAR QR</string>
+    <string name="search_google">búscar en google</string>
 
     <!-- Scanner -->
     <string name="option">Opción</string>
@@ -62,5 +62,6 @@
     <string name="systemOf">Sistema de</string>
     <string name="linearEq">Ecuaciones lineales</string>
     <string name="descSEL">En matemáticas y álgebra lineal, un sistema de ecuaciones lineales, también conocido como sistema lineal de ecuaciones o simplemente sistema lineal, es un conjunto de ecuaciones lineales (es decir, un sistema de ecuaciones en donde cada ecuación es de primer grado), definidas sobre un cuerpo o un anillo conmutativo. Un ejemplo de sistema lineal de ecuaciones sería el siguiente:</string>
+    <string name="todo">TODO</string>
 
 </resources>

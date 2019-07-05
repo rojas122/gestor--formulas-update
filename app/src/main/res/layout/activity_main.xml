@@ -84,6 +84,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/add_qr" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

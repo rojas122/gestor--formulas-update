@@ -13,6 +13,10 @@
     <string name="favorites">FAVORITAS</string>
     <string name="search_google">búscar en google</string>
 
+
+    <string name="add_qr">Add QR</string>
+    <string name="scan_canceled">Scan canceled</string>
+
     <!-- Scanner -->
     <string name="option">Opción</string>
     <string name="scanner">Escaner</string>
@@ -37,7 +41,6 @@
     <!-- Física -->
     <string name="physics">Física</string>
     <string name="descPhysics">Descripción de Física</string>
-
 
 
     <!-- Producto matrices -->

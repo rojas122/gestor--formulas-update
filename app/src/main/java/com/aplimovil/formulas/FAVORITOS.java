@@ -10,6 +10,27 @@ import android.widget.ListView;
 public class FAVORITOS extends AppCompatActivity implements ListView.OnItemClickListener {
     String[] valor =new String[]{"sistemas de escuaciones lineales","Suma de Matrices","Suma de Complejos", "Producto de Matrices","Sistema de Ecuaciones por tres"};
     ListView lista_ecua;
+
+    public String[] getValor() {
+        return valor;
+    }
+
+    public void setValor(String[] valor) {
+        this.valor = valor;
+    }
+
+    public ListView getLista_ecua() {
+        return lista_ecua;
+    }
+
+    public void setLista_ecua(ListView lista_ecua) {
+        this.lista_ecua = lista_ecua;
+    }
+
+    public FAVORITOS(String contents) {
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

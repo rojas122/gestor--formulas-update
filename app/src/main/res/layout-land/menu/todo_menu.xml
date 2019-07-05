@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addQR"
+        android:alphabeticShortcut="q"
+        android:icon="@drawable/add_qr"
+        android:numericShortcut="4"
+        android:title="@string/add_qr"
+        app:showAsAction="always"></item>
+</menu>

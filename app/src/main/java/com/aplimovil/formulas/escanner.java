@@ -1,19 +1,19 @@
 package com.aplimovil.formulas;
 
-import android.content.Intent;
+/*import android.content.Intent;
 import android.graphics.Bitmap;
-import android.provider.MediaStore;
+import android.provider.MediaStore;*/
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
+//import android.view.View;
+//import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
 
 public class escanner extends AppCompatActivity {
-    Button btn_btn_esca;
+    Button btnQR;
     ImageView image;
     static final int REQUEST_IMAGE_CAPTURE = 1;
     private ArrayList<String> todoItems;
@@ -24,7 +24,7 @@ public class escanner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_escanner);
-        btn_btn_esca = (Button)findViewById(R.id.btn_escanner);
+        btnQR = (Button)findViewById(R.id.btn_escanner);
         image= (ImageView)findViewById(R.id.imageView11);
         //todoItems = (ArrayList<String>) getLastCustomNonConfigurationInstance();
        // if (todoItems == null)
@@ -43,7 +43,10 @@ public class escanner extends AppCompatActivity {
 
     }
 
-    public void escanner(View view) {
+
+
+
+ /*   public void escanner(View view) {
         llamarintem();
     }
 
@@ -72,6 +75,6 @@ public class escanner extends AppCompatActivity {
             image.setVisibility(View.VISIBLE);
             image.setVisibility(View.VISIBLE);
         }
-    }
+    }*/
 }
 
